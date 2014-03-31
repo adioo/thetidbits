@@ -96,6 +96,7 @@ ul {
 .text-slider .item p {
     font-family: "Times New Roman", serif;
     font-size: 41px;
+    line-height: 46px;
 }
 
 .text-slider .item span {
@@ -289,6 +290,7 @@ ul {
 .content-title {
     font-family: "Times New Roman", serif;
     font-size: 30px;
+    line-height: 33px;
     margin: 0;
     padding: 0;
 }
