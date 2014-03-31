@@ -452,6 +452,10 @@ ul {
     left: -60px;
 }
 
+#slider_hartelijk_geintegreerd .carousel-inner {
+    left: -60px;
+}
+
 .img-row img {
     margin-left: 20px;
 }
