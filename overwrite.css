@@ -90,7 +90,8 @@ ul {
 .text-slider .item {
     font-family: "Times New Roman", serif;
     font-weight: normal;
-    margin-right: 88px;
+    margin-right: 88px !important;
+    text-align: left !important;
 }
 
 .text-slider .item p {
@@ -340,7 +341,7 @@ ul {
 
 #ja_nee-badge {
     position: absolute;
-    top: 278px;
+    top: 267px;
     left: 568px;
 }
 
@@ -406,6 +407,16 @@ ul {
     left: -20px;
 }
 
+#badge_position {
+    height: 131px;
+}
+ 
+#badge_position img {
+    position: absolute;
+    top: -9px;
+    left: -9px;
+}
+
 #adjustedSliderImage {
     margin-left: -20px;
 }
@@ -455,6 +466,12 @@ ul {
 
 #logo-vanhulsteijn {
     margin: 0 20px 0 10px;
+}
+
+#img_cheap_chick_2 {
+    position: absolute;
+    top: -254px;
+    left: -27px;
 }
 
 /* popups ------------------------------------------------------------------- */
@@ -521,12 +538,14 @@ ul {
 .slider .carousel-inner > .item {
     display: inline-block;
     vertical-align: middle;
+    min-width: 360px;
+    text-align: center;
+    margin-right: 60px;
 }
 
 .slider .carousel-inner > .item > img {
-    display: block;
-    position: relative;
-    margin-right: 60px;
+    display: inline;
+    max-width: none;
 }
 
 .slider_left_handler, .slider_right_handler {
