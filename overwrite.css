@@ -335,6 +335,12 @@ ul {
     left: 564px;
 }
 
+#ja_nee-badge {
+    position: absolute;
+    top: 278px;
+    left: 568px;
+}
+
 #img_avatar {
     top: 70px;
     left: 70px;

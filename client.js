@@ -21,7 +21,7 @@ $(document).on('ready', function () {
     });
     
     // popups toggler
-    $('#popup_handler').on('click', function () {
+    $('#ja_nee-badge').on('click', function () {
         
         // TODO normalize before toggle
         if (!show) {
