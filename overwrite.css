@@ -425,6 +425,7 @@ ul {
     display: none;
     top: 271px;
     left: -94px;
+    cursor: pointer;
 }
 
 #slider_cheap_chick .carousel-inner {
@@ -451,6 +452,7 @@ ul {
 .popup {
     position: absolute;
     display: none;
+    cursor: pointer;
 }
 
 .popup-1 {
