@@ -269,7 +269,7 @@ ul {
     background-color: #fff;
     background-image: url('./img/avatar_body.png');
     background-repeat: no-repeat;
-    background-position: 97px -22px;
+    background-position: 97px -24px;
 }
 
 #content .content-item > a {
@@ -285,7 +285,7 @@ ul {
     position: relative;
     z-index: 1;
     margin: 0 0;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .content-title {
